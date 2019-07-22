@@ -1,6 +1,7 @@
 package main
 
 import (
+	"container/list"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -8,13 +9,13 @@ import (
 	"strings"
 )
 
-type AdjMatrix struct {
+type AdjList struct {
 	V   int
 	E   int
-	adj [][]int
+	adj []*list.List
 }
 
-func NewAdjMatrix(name string) (*AdjMatrix, error) {
+func NewAdjList(name string) (*AdjList, error) {
 	// 1. 读取文件
 	result := make([]string, len(name))
 	if contents, err := ioutil.ReadFile(name); err == nil {
@@ -26,10 +27,9 @@ func NewAdjMatrix(name string) (*AdjMatrix, error) {
 	if V < 0 || err != nil {
 		return nil, errors.New("获取顶点V失败，确保V为非负整数\n")
 	}
-	adj := make([][]int, 0)
+	adj := make([]*list.List, 0) // adj是一个链表数组
 	for i := 0; i < V; i++ {
-		tmp := make([]int, V)
-		adj = append(adj, tmp)
+		adj = append(adj, list.New()) // 第i个元素表示的是第i个顶点和它相邻的顶点
 	}
 
 	// 3. 根据边E来构造二维矩阵
@@ -47,16 +47,16 @@ func NewAdjMatrix(name string) (*AdjMatrix, error) {
 			if a == b {
 				return nil, errors.New("检测到自环边!\n")
 			}
-			if adj[a][b] == 1 {
+			if contain(adj[a], b) {
 				return nil, errors.New("检测到平行边!\n")
 			}
 
-			adj[a][b] = 1
-			adj[b][a] = 1
+			adj[a].PushBack(b)
+			adj[b].PushBack(a)
 		}
 	}
 
-	return &AdjMatrix{
+	return &AdjList{
 		V:   V,
 		E:   E,
 		adj: adj,
@@ -64,45 +64,41 @@ func NewAdjMatrix(name string) (*AdjMatrix, error) {
 }
 
 // 返回图有几个顶点
-func (a *AdjMatrix) Vertex() int {
+func (a *AdjList) Vertex() int {
 	return a.V
 }
 
 // 返回图有几个边
-func (a *AdjMatrix) Edge() int {
+func (a *AdjList) Edge() int {
 	return a.E
 }
 
 // 判断两个顶点之间是否存在一条边
-func (a *AdjMatrix) HasEdge(v, w int) bool {
+func (a *AdjList) HasEdge(v, w int) bool {
 	validateVertex(v, a.V)
 	validateVertex(w, a.V)
-	return a.adj[v][w] == 1
+	return contain(a.adj[v], w)
 }
 
 // 返回v顶点的相邻的边
-func (a *AdjMatrix) Adjacency(v int) []int {
+func (a *AdjList) Adjacency(v int) *list.List {
 	validateVertex(v, a.V) // 判断用户传入的顶点v是合法的
-	res := make([]int, 0)
-	for i := 0; i < a.V; i++ {
-		if a.adj[v][i] == 1 {
-			res = append(res, i)
-		}
-	}
-	return res
+	return a.adj[v]
 }
 
 // 求一个顶点的度degree
-func (a *AdjMatrix) Degree(v int) int {
-	return len(a.Adjacency(v))
+func (a *AdjList) Degree(v int) int {
+	return a.Adjacency(v).Len()
 }
 
 // 打印出邻接表表示的图
-func (a *AdjMatrix) Print() {
+func (a *AdjList) Print() {
 	fmt.Printf("V: %d, E: %d\n", a.V, a.E)
 	for i := 0; i < a.V; i++ {
-		for j := 0; j < a.V; j++ {
-			fmt.Printf("%d ", a.adj[i][j])
+		fmt.Printf("%d: ", i)
+		for w := a.adj[i].Front(); w != nil; w = w.Next() {
+			p := w.Value.(int)
+			fmt.Printf("%d ", p)
 		}
 		fmt.Println()
 	}
@@ -114,16 +110,29 @@ func validateVertex(v, V int) {
 	}
 }
 
+func contain(v *list.List, w int) bool {
+	for i := v.Front(); i != nil; i = i.Next() {
+		if i.Value == w {
+			return true
+		}
+	}
+	return false
+}
+
 func main() {
-	adj, err := NewAdjMatrix("g.txt")
+	adj, err := NewAdjList("g.txt")
 	if err != nil {
-		fmt.Print(err)
+		fmt.Println(err)
 	}
 	adj.Print()
 	fmt.Println(adj.Vertex())      // 7
 	fmt.Println(adj.Edge())        // 9
 	fmt.Println(adj.HasEdge(0, 1)) // true
 	fmt.Println(adj.HasEdge(0, 4)) // false
-	fmt.Println(adj.Adjacency(1))  // [0 2 6]
-	fmt.Println(adj.Degree(0))     // 2
+	tmp := adj.Adjacency(1)
+	for i := tmp.Front(); i != nil; i = i.Next() {
+		fmt.Printf("%d ", i.Value) // 0 2 6
+	}
+	fmt.Println()
+	fmt.Println(adj.Degree(0)) // 2
 }
