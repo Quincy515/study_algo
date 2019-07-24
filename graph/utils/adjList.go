@@ -40,9 +40,9 @@ func NewAdjList(name string) (*AdjList, error) {
 	for i := 0; i < 2*E; i++ {
 		if i%2 == 0 {
 			a, _ := strconv.Atoi(result[2+i])
-			validateVertex(a, V) // 判断顶点是否合法
+			ValidateVertex(a, V) // 判断顶点是否合法
 			b, _ := strconv.Atoi(result[3+i])
-			validateVertex(b, V)
+			ValidateVertex(b, V)
 
 			if a == b {
 				return nil, errors.New("检测到自环边!\n")
@@ -75,14 +75,14 @@ func (a *AdjList) Edge() int {
 
 // 判断两个顶点之间是否存在一条边
 func (a *AdjList) HasEdge(v, w int) bool {
-	validateVertex(v, a.V)
-	validateVertex(w, a.V)
+	ValidateVertex(v, a.V)
+	ValidateVertex(w, a.V)
 	return contain(a.adj[v], w)
 }
 
 // 返回v顶点的相邻的边
 func (a *AdjList) Adjacency(v int) *list.List {
-	validateVertex(v, a.V) // 判断用户传入的顶点v是合法的
+	ValidateVertex(v, a.V) // 判断用户传入的顶点v是合法的
 	return a.adj[v]
 }
 
@@ -104,7 +104,7 @@ func (a *AdjList) Print() {
 	}
 }
 
-func validateVertex(v, V int) {
+func ValidateVertex(v, V int) {
 	if v < 0 || v >= V {
 		panic("文件内容行数列数与定义不相符\n")
 	}
