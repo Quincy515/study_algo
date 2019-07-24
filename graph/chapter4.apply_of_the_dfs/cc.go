@@ -6,6 +6,7 @@ import (
 	Graph "github.com/custergo/study_algo/graph/utils"
 )
 
+// 求联通分量的个数
 func CC(G *Graph.AdjList) int {
 	cccount := 0                     // 联通分量的个数
 	visited := make(map[int]bool, 0) // 记录每个节点是否被遍历过

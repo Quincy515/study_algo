@@ -12,7 +12,7 @@ type CC struct {
 	V       int
 }
 
-// 深度优先遍历返回联通分量
+// 判断两个顶点是否属于同一个联通分量
 func CCClassify(G *Graph.AdjList) *CC {
 	cccount := 0                // 联通分量的个数
 	visited := make([]int, G.V) // 记录每个节点是否被遍历过
