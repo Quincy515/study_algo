@@ -1,4 +1,6 @@
-[玩转图论算法](https://coding.imooc.com/lesson/370.html)
+[慕课网的实战课程《玩儿转图论算法》](https://coding.imooc.com/lesson/370.html)
+
+https://github.com/liuyubobobo/Play-with-Graph-Algorithms
 
 学习笔记
 
