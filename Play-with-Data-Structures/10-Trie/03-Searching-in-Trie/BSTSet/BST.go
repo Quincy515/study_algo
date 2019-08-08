@@ -1,8 +1,9 @@
-package Trie
+package BSTSet
 
 import (
 	"bytes"
 	"fmt"
+	"reflect"
 )
 
 type Node struct {
@@ -242,12 +243,30 @@ func (b *BST) remove(node *Node, e interface{}) *Node {
 }
 
 func compare(a, b interface{}) int {
-	if a.(int) > b.(int) {
-		return 1
-	} else if a.(int) < b.(int) {
-		return -1
-	} else {
-		return 0
+	aType := reflect.TypeOf(a).String()
+	bType := reflect.TypeOf(b).String()
+	if aType != bType {
+		panic("cannot compare different type params")
+	}
+	switch a.(type) {
+	case int:
+		if a.(int) > b.(int) {
+			return 1
+		} else if a.(int) < b.(int) {
+			return -1
+		} else {
+			return 0
+		}
+	case string:
+		if a.(string) > b.(string) {
+			return 1
+		} else if a.(string) < b.(string) {
+			return -1
+		} else {
+			return 0
+		}
+	default:
+		panic("unsupported type params")
 	}
 }
 
