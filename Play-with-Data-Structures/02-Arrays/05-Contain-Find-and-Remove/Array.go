@@ -151,7 +151,7 @@ func (a *Array) RemoveElement(e int) {
 
 // 从数组中删除所有元素e
 //func (a *Array) RemoveAllElement(e int) bool {
-//	index := a.Find(e)
+//	index := a.find(e)
 //	if index == -1 {
 //		return false
 //	}
