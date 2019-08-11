@@ -1,4 +1,4 @@
-package _7_BSTMap
+package BSTMap
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 )
 
 type Node struct {
-	key         K
-	value       V
+	key         interface{}
+	value       interface{}
 	left, right *Node
 }
 
@@ -29,13 +29,13 @@ func (bm *BSTMap) IsEmpty() bool {
 }
 
 // 向二分搜索树中添加元素(key, value)
-func (bm *BSTMap) Add(key K, value V) {
+func (bm *BSTMap) Add(key interface{}, value interface{}) {
 	bm.root = bm.add(bm.root, key, value)
 }
 
 // 向以node为根的二分搜索树中插入元素(key, value),递归算法
 // 返回插入新节点后二分搜索树的根
-func (bm *BSTMap) add(node *Node, key K, value V) *Node {
+func (bm *BSTMap) add(node *Node, key interface{}, value interface{}) *Node {
 	if node == nil {
 		bm.size++
 		return &Node{key, value, nil, nil}
@@ -51,7 +51,7 @@ func (bm *BSTMap) add(node *Node, key K, value V) *Node {
 }
 
 // 返回以node为根节点的二分搜索树中，key所在的节点
-func (bm *BSTMap) getNode(node *Node, key K) *Node {
+func (bm *BSTMap) getNode(node *Node, key interface{}) *Node {
 	if node == nil { // 未找到等于key的节点
 		return nil
 	}
@@ -64,11 +64,11 @@ func (bm *BSTMap) getNode(node *Node, key K) *Node {
 	}
 }
 
-func (bm *BSTMap) Contains(key K) bool {
+func (bm *BSTMap) Contains(key interface{}) bool {
 	return bm.getNode(bm.root, key) != nil
 }
 
-func (bm *BSTMap) Get(key K) V {
+func (bm *BSTMap) Get(key interface{}) interface{} {
 	node := bm.getNode(bm.root, key)
 	if node == nil {
 		return nil
@@ -77,7 +77,7 @@ func (bm *BSTMap) Get(key K) V {
 	}
 }
 
-func (bm *BSTMap) Set(key K, newValue V) {
+func (bm *BSTMap) Set(key interface{}, newValue interface{}) {
 	node := bm.getNode(bm.root, key)
 	if node == nil {
 		panic(fmt.Sprintf("%v, doesn't exist.", key))
@@ -86,7 +86,7 @@ func (bm *BSTMap) Set(key K, newValue V) {
 }
 
 // 从二分搜索树中删除键为key的节点
-func (bm *BSTMap) Remove(key K) V {
+func (bm *BSTMap) Remove(key interface{}) interface{} {
 	node := bm.getNode(bm.root, key)
 	if node != nil {
 		bm.root = bm.remove(bm.root, key)
@@ -98,7 +98,7 @@ func (bm *BSTMap) Remove(key K) V {
 
 // 删除掉以node为根的二分搜索树中键为key的节点，递归算法
 // 返回删除节点后新的二分搜索树的根
-func (bm *BSTMap) remove(node *Node, key K) *Node {
+func (bm *BSTMap) remove(node *Node, key interface{}) *Node {
 	if node == nil {
 		return nil
 	}
