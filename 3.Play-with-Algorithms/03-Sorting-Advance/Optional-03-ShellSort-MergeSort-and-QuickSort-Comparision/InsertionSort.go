@@ -10,3 +10,14 @@ func InsertionSort(arr []int, n int) {
 		arr[j] = e
 	}
 }
+
+func insertionSort(arr []int, l, r int) {
+	for i := l; i <= r; i++ {
+		e := arr[i] // 寻找元素arr[i]合适的插入位置
+		var j int   // j保存元素temp应该插入的位置
+		for j = i; j > l && arr[j-1] > e; j-- {
+			arr[j] = arr[j-1]
+		}
+		arr[j] = e
+	}
+}
