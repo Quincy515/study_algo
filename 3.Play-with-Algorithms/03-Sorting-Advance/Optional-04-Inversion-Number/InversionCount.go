@@ -52,7 +52,6 @@ func inversionCount(arr []int, l, r int) int64 {
 }
 
 // 递归求arr的逆序对个数
-
 func InversionCount(arr []int, n int) int64 {
 	return inversionCount(arr, 0, n-1)
 }

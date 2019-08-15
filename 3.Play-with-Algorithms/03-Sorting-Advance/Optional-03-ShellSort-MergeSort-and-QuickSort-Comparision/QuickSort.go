@@ -2,6 +2,7 @@ package Sort
 
 import (
 	"math/rand"
+	"time"
 )
 
 // 对 arr[l...r] 部分进行 partition 操作
@@ -41,5 +42,6 @@ func quickSort(arr []int, l, r int) {
 }
 
 func QuickSort(arr []int, n int) {
+	rand.Seed(time.Now().Unix())
 	quickSort(arr, 0, n-1)
 }
