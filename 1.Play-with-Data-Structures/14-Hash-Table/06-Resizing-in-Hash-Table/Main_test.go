@@ -2,9 +2,9 @@ package HashTable
 
 import (
 	"fmt"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/14-Hash-Table/05-Hash-Table-Implementation/AVLTree"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/14-Hash-Table/05-Hash-Table-Implementation/BSTMap"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/14-Hash-Table/05-Hash-Table-Implementation/RBTree"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/14-Hash-Table/05-Hash-Table-Implementation/AVLTree"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/14-Hash-Table/05-Hash-Table-Implementation/BSTMap"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/14-Hash-Table/05-Hash-Table-Implementation/RBTree"
 	"testing"
 	"time"
 )

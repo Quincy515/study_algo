@@ -2,7 +2,7 @@ package UnionFind4
 
 import (
 	"fmt"
-	UnionFind3 "github.com/custergo/study_algo/Play-with-Data-Structures/11-Union-Find/04-Optimized-by-Size"
+	UnionFind3 "github.com/custergo/study_algo/1.Play-with-Data-Structures/11-Union-Find/04-Optimized-by-Size"
 	"math/rand"
 	"testing"
 	"time"

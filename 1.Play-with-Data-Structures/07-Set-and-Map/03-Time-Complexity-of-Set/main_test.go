@@ -2,8 +2,8 @@ package _3_Time_Complexity_of_Set
 
 import (
 	"fmt"
-	_1_Set_Basics_and_BSTSet "github.com/custergo/study_algo/Play-with-Data-Structures/07-Set-and-Map/01-Set-Basics-and-BSTSet"
-	_2_LinkedListSet "github.com/custergo/study_algo/Play-with-Data-Structures/07-Set-and-Map/02-LinkedListSet"
+	_1_Set_Basics_and_BSTSet "github.com/custergo/study_algo/1.Play-with-Data-Structures/07-Set-and-Map/01-Set-Basics-and-BSTSet"
+	_2_LinkedListSet "github.com/custergo/study_algo/1.Play-with-Data-Structures/07-Set-and-Map/02-LinkedListSet"
 	"testing"
 	"time"
 )

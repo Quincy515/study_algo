@@ -2,9 +2,9 @@ package HashTable
 
 import (
 	"fmt"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/AVLTree"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/BSTMap"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/RBTree"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/AVLTree"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/BSTMap"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/RBTree"
 	"testing"
 	"time"
 )

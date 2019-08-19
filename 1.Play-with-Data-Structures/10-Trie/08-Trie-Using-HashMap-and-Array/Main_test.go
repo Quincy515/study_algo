@@ -2,7 +2,7 @@ package Trie
 
 import (
 	"fmt"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/10-Trie/03-Searching-in-Trie/BSTSet"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/10-Trie/03-Searching-in-Trie/BSTSet"
 	"testing"
 	"time"
 )

@@ -2,7 +2,7 @@ package AVLTree
 
 import (
 	"fmt"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/12-AVL-Tree/06-LR-and-RL/BSTMap"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/12-AVL-Tree/06-LR-and-RL/BSTMap"
 	"testing"
 	"time"
 )

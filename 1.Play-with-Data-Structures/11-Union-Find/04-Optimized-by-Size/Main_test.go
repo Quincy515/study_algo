@@ -2,8 +2,8 @@ package UnionFind3
 
 import (
 	"fmt"
-	UnionFind1 "github.com/custergo/study_algo/Play-with-Data-Structures/11-Union-Find/02-Quick-Find"
-	UnionFind2 "github.com/custergo/study_algo/Play-with-Data-Structures/11-Union-Find/03-Quick-Union"
+	UnionFind1 "github.com/custergo/study_algo/1.Play-with-Data-Structures/11-Union-Find/02-Quick-Find"
+	UnionFind2 "github.com/custergo/study_algo/1.Play-with-Data-Structures/11-Union-Find/03-Quick-Union"
 	"math/rand"
 	"testing"
 	"time"

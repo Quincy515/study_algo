@@ -20,7 +20,7 @@ func (uf *UnionFind) GetSize() int {
 
 // 查找元素p所对应的集合编号
 func (uf *UnionFind) find(p int) int {
-	if p < 0 && p > len(uf.id) {
+	if p < 0 || p >= len(uf.id) {
 		panic("p is out of bound.")
 	}
 	return uf.id[p]

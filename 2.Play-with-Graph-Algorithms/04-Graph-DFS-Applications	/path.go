@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	Graph "github.com/custergo/study_algo/graph/utils"
+	Graph "github.com/custergo/study_algo/2.Play-with-Graph-Algorithms/utils"
 )
 
 // 两个顶点之间的路径

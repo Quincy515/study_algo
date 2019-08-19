@@ -2,7 +2,7 @@ package RBTree
 
 import (
 	"fmt"
-	"github.com/custergo/study_algo/Play-with-Data-Structures/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/BSTMap"
+	"github.com/custergo/study_algo/1.Play-with-Data-Structures/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/BSTMap"
 	"math"
 	"math/rand"
 	"testing"
