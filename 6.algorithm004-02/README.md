@@ -3,10 +3,10 @@
 | Week01 | 第三课 |  |
 | :---: | --- | --- |
 |array|标签 |实现
-|[11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)| [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/) | Go
-|[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/) | [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/) | Go
-|[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/)| Go
-|[15. 三数之和](https://leetcode-cn.com/problems/3sum/) | [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/)| Go
+|[11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)| [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/) | [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode11.go)
+|[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/) | [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/) | [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode283.go)
+|[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/)| [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode70.go)
+|[15. 三数之和](https://leetcode-cn.com/problems/3sum/) | [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/)| [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode15.go)
 |linkedList|标签 |实现
 |[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [链表](https://leetcode-cn.com/tag/linked-list/)|Go
 |[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [链表](https://leetcode-cn.com/tag/linked-list/)|Go
