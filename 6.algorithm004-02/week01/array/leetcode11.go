@@ -1,10 +1,5 @@
 package LeetCode
 
-import (
-	"fmt"
-	"testing"
-)
-
 // 方法一：前端循环暴力破解
 // 执行用时 : 728 ms, 在所有 golang 提交中击败了 9.82% 的用户
 // 内存消耗 : 5.6 MB, 在所有 golang 提交中击败了 65.35% 的用户
@@ -55,16 +50,6 @@ func min(a, b int) int {
 		return a
 	}
 	return b
-}
-
-func TestMaxArea1(t *testing.T) {
-	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
-	fmt.Println(maxArea(height))
-}
-
-func TestMaxArea2(t *testing.T) {
-	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
-	fmt.Println(maxArea2(height))
 }
 
 // https://leetcode-cn.com/problems/container-with-most-water/solution/custerxue-xi-bi-ji-shuang-zhi-zhen-by-custergo-3/

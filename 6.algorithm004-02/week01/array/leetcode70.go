@@ -1,7 +1,5 @@
 package LeetCode
 
-import "testing"
-
 // 循环实现
 // 当n为1或2时，可以直接返回结果；
 // 其他情况都是根据前两个结果来计算出来的，所以只需要保存前两个结果。
@@ -60,13 +58,6 @@ func climbStairs4(n int) int {
 		dp[i] = dp[i-1] + dp[i-2]
 	}
 	return dp[n]
-}
-
-func TestClimbStairs(t *testing.T) {
-	t.Log(climbStairs1(3))
-	t.Log(climbStairs2(3))
-	t.Log(climbStairs3(3))
-	t.Log(climbStairs4(3))
 }
 
 // 链接：https://leetcode-cn.com/problems/climbing-stairs/solution/custerxue-xi-bi-ji-by-custergo-19/

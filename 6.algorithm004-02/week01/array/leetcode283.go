@@ -1,9 +1,5 @@
 package LeetCode
 
-import (
-	"testing"
-)
-
 // 1. 构造新的数组
 // 执行用时 : 88 ms, 在所有 golang 提交中击败了 96.14% 的用户
 // 内存消耗 : 7.6 MB, 在所有 golang 提交中击败了 99.02% 的用户
@@ -41,18 +37,6 @@ func moveZeroes2(nums []int) {
 	for i := index; i < len(nums); i++ {
 		nums[i] = 0
 	}
-}
-
-func TestMoveZeroes(t *testing.T) {
-	nums := []int{0, 1, 0, 3, 12}
-	moveZeroes(nums)
-	t.Log(nums)
-}
-
-func TestMoveZeroes2(t *testing.T) {
-	nums := []int{0, 1, 0, 3, 12}
-	moveZeroes2(nums)
-	t.Log(nums)
 }
 
 // https://leetcode-cn.com/problems/move-zeroes/solution/custerxue-xi-bi-ji-shuang-zhi-zhen-by-custergo/
