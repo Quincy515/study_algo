@@ -8,11 +8,11 @@
 |[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/)| [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode70.go)
 |[15. 三数之和](https://leetcode-cn.com/problems/3sum/) | [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/)| [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode15.go)
 |linkedList|标签 |实现
-|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [链表](https://leetcode-cn.com/tag/linked-list/)|Go
-|[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [链表](https://leetcode-cn.com/tag/linked-list/)|Go
-|[141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)| [链表](https://leetcode-cn.com/tag/linked-list/) [双指针](https://leetcode-cn.com/tag/two-pointers/)|Go
-|[142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)| [链表](https://leetcode-cn.com/tag/linked-list/) [双指针](https://leetcode-cn.com/tag/two-pointers/)|Go
-|[25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)| [链表](https://leetcode-cn.com/tag/linked-list/)|Go
+|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [链表](https://leetcode-cn.com/tag/linked-list/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/linkedlist/leetcode206.go)
+|[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [链表](https://leetcode-cn.com/tag/linked-list/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/linkedlist/leetcode24.go)
+|[141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)| [链表](https://leetcode-cn.com/tag/linked-list/) [双指针](https://leetcode-cn.com/tag/two-pointers/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/linkedlist/leetcode141.go)
+|[142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)| [链表](https://leetcode-cn.com/tag/linked-list/) [双指针](https://leetcode-cn.com/tag/two-pointers/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/linkedlist/leetcode142.go)
+|[25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)| [链表](https://leetcode-cn.com/tag/linked-list/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/linkedlist/leetcode25.go)
 |Homework|标签 |实现
 |[26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)| [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/) | Go
 |[189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)| [数组](https://leetcode-cn.com/tag/array/)| Go
@@ -21,6 +21,7 @@
 |[1. 两数之和](https://leetcode-cn.com/problems/two-sum/)| [数组](https://leetcode-cn.com/tag/array/) [哈希表](https://leetcode-cn.com/tag/hash-table/) | Go
 |[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/) | [数组](https://leetcode-cn.com/tag/array/) [双指针](https://leetcode-cn.com/tag/two-pointers/) | Go
 |[66. 加一](https://leetcode-cn.com/problems/plus-one/)| [数组](https://leetcode-cn.com/tag/array/)| Go
+|  |  |  |
 | Week01 | 第四课 |  |
 |预习题目|标签 |实现
 |[20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/)| [栈](https://leetcode-cn.com/tag/stack/) [字符串](https://leetcode-cn.com/tag/string/) | Go
