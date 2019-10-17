@@ -1,4 +1,4 @@
-package LeetCode
+package leetcode
 
 import (
 	"fmt"
@@ -12,4 +12,9 @@ func TestLeetCode447(t *testing.T) {
 		{2, 0},
 	}
 	fmt.Println(numberOfBoomerangs(points))
+}
+
+func TestLeetCode149(t *testing.T) {
+	points := [][]int{{1, 1}, {2, 2}, {3, 3}}
+	fmt.Println(maxPoints(points))
 }
