@@ -52,7 +52,7 @@
 | Week02 | 第七课 | 泛型递归、树的递归 |
 |实战题目|标签 |实现
 |[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/)| [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode70.go)
-| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |[字符串](https://leetcode-cn.com/tag/string/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) |[Go]()
+| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |[字符串](https://leetcode-cn.com/tag/string/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) |[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week02/07.Recursive/leetcode-22.go)
 | [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/) | [树](https://leetcode-cn.com/tag/tree/) | [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week02/07.Recursive/leetcode-226.go) |
 | [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [树](https://leetcode-cn.com/tag/tree/) [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) | [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week02/07.Recursive/leetcode-98.go) |
 | [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [树](https://leetcode-cn.com/tag/tree/) [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) | [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week02/07.Recursive/leetcode-104.go) |
@@ -79,7 +79,7 @@
 |实战题目|标签 |实现
 | [102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal) | [树](https://leetcode-cn.com/tag/tree/) [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week02/06.Tree-BST/leetcode-102.go) |
 | [433. 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation)| []()|[Go]()|
-| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |[字符串](https://leetcode-cn.com/tag/string/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) |[Go]()
+| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |[字符串](https://leetcode-cn.com/tag/string/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) |[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week02/07.Recursive/leetcode-22.go)
 | [515. 在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row)| [树](https://leetcode-cn.com/tag/tree/) [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/)|[Go]()|
 |Homework|标签 |实现
 | [127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)| [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/)|[Go]()|
