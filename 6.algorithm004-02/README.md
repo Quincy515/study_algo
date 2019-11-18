@@ -105,12 +105,66 @@
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)| [数组](https://leetcode-cn.com/tag/array/) [二分查找](https://leetcode-cn.com/tag/binary-search/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week03/11.Homework/leetcode-33.go)|
 | [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)| [数组](https://leetcode-cn.com/tag/array/) [二分查找](https://leetcode-cn.com/tag/binary-search/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week03/11.Homework/leetcode-74.go)|
 | [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/ﬁnd-minimum-in-rotated-sorted-array/)| [数组](https://leetcode-cn.com/tag/array/) [二分查找](https://leetcode-cn.com/tag/binary-search/)|[Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week03/11.Homework/leetcode-153.go)|
-
-
-
-
-
-
+| Week05 | 第十二课 | 动态规划 |
+|实战题目|标签 |实现
+| [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/)| [Go](https://github.com/custergo/study_algo/blob/master/6.algorithm004-02/week01/array/leetcode70.go)
+| [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/description/) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [数组](https://leetcode-cn.com/tag/array/) [分治算法](https://leetcode-cn.com/tag/divide-and-conquer/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/description/) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)| [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/description/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/#/description) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [贪心算法](https://leetcode-cn.com/tag/greedy/) [数组](https://leetcode-cn.com/tag/array/) | [Go]()
+| [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [贪心算法](https://leetcode-cn.com/tag/greedy/) [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) [数学](https://leetcode-cn.com/tag/math/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [贪心算法](https://leetcode-cn.com/tag/greedy/) [数组](https://leetcode-cn.com/tag/array/) | [Go]()
+| [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [贪心算法](https://leetcode-cn.com/tag/greedy/) [数组](https://leetcode-cn.com/tag/array/) | [Go]()
+| [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [980. 不同路径 III](https://leetcode-cn.com/problems/unique-paths-iii/) | [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+|Homework|标签 |实现
+| [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [363. 矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) | [队列](https://leetcode-cn.com/tag/queue/) [二分查找](https://leetcode-cn.com/tag/binary-search/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [403. 青蛙过河](https://leetcode-cn.com/problems/frog-jump/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/) | [二分查找](https://leetcode-cn.com/tag/binary-search/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [552. 学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler/) | [贪心算法](https://leetcode-cn.com/tag/greedy/) [队列](https://leetcode-cn.com/tag/queue/) [数组](https://leetcode-cn.com/tag/array/) | [Go]()
+| [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) [双指针](https://leetcode-cn.com/tag/two-pointers/) [字符串](https://leetcode-cn.com/tag/string/) [Sliding Window](https://leetcode-cn.com/tag/sliding-window/) | [Go]()
+| [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons/) | [分治算法](https://leetcode-cn.com/tag/divide-and-conquer/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| Week06 | 第十三课 | 字典树和并查集 |
+|实战题目|标签 |实现
+| [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [设计](https://leetcode-cn.com/tag/design/) [字典树](https://leetcode-cn.com/tag/trie/) | [Go]()
+| [212. 单词搜索 II]() | [字典树](https://leetcode-cn.com/tag/trie/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [并查集](https://leetcode-cn.com/tag/union-find/) | [Go]()
+| [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) [并查集](https://leetcode-cn.com/tag/union-find/) | [Go]()
+| [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) [并查集](https://leetcode-cn.com/tag/union-find/) | [Go]()
+| Week06 | 第十四课 | 高级搜索 |
+|实战题目|标签 |实现
+| [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [字符串](https://leetcode-cn.com/tag/string/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [51. N皇后](https://leetcode-cn.com/problems/n-queens/) | [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) | [Go]()
+| [37. 解数独](https://leetcode-cn.com/problems/sudoku-solver/#/description) | [哈希表](https://leetcode-cn.com/tag/hash-table/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
+| [433. 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
+| [1091. 二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
+| [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
+| [37. 解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [1091. 二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
+| [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/submissions/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
+| Week06 | 第十五课 | 高级树、AVL 树和红黑树 |
 
 
 
