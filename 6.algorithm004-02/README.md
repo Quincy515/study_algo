@@ -146,7 +146,7 @@
 | Week06 | 第十三课 | 字典树和并查集 |
 |实战题目|标签 |实现
 | [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [设计](https://leetcode-cn.com/tag/design/) [字典树](https://leetcode-cn.com/tag/trie/) | [Go]()
-| [212. 单词搜索 II]() | [字典树](https://leetcode-cn.com/tag/trie/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/) | [字典树](https://leetcode-cn.com/tag/trie/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
 | [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [并查集](https://leetcode-cn.com/tag/union-find/) | [Go]()
 | [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) [并查集](https://leetcode-cn.com/tag/union-find/) | [Go]()
 | [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/) [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) [并查集](https://leetcode-cn.com/tag/union-find/) | [Go]()
