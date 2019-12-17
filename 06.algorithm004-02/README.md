@@ -165,10 +165,72 @@
 | [1091. 二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
 | [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/submissions/) | [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/) | [Go]()
 | Week06 | 第十五课 | 高级树、AVL 树和红黑树 |
-
-
-
-
-
-
-
+| Week07 | 第十六课 | 位运算 |
+|实战题目|标签 |实现
+| [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/) | [Go]()
+| [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/) [数学](https://leetcode-cn.com/tag/math/) | [Go]()
+| [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/) | [Go]()
+| [51. N皇后](https://leetcode-cn.com/problems/n-queens/description/) | [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/description/) | [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/description/) | [位运算](https://leetcode-cn.com/tag/bit-manipulation/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| Week07 | 第十七课 | 布隆过滤器、LRU Cache |
+|实战题目|标签 |实现
+| [146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/#/) | [设计](https://leetcode-cn.com/tag/design/) | [Go]()
+| Week07 | 第十八课 | 排序算法 |
+|实战题目|标签 |实现
+| [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/) | [排序](https://leetcode-cn.com/tag/sort/) [数组](https://leetcode-cn.com/tag/array/) | [Go]()
+| [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [排序](https://leetcode-cn.com/tag/sort/) [哈希表](https://leetcode-cn.com/tag/hash-table/) | [Go]()
+| [1244. 力扣排行榜](https://leetcode-cn.com/problems/design-a-leaderboard/) | [排序](https://leetcode-cn.com/tag/sort/) | [Go]()
+| [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [排序](https://leetcode-cn.com/tag/sort/) [数组](https://leetcode-cn.com/tag/array/) | [Go]()
+| [493. 翻转对](https://leetcode-cn.com/problems/reverse-pairs/) | [排序](https://leetcode-cn.com/tag/sort/) [树状数组](https://leetcode-cn.com/tag/binary-indexed-tree/) [线段树](https://leetcode-cn.com/tag/segment-tree/) [二分查找](https://leetcode-cn.com/tag/binary-search/) [分治算法](https://leetcode-cn.com/tag/divide-and-conquer/) | [Go]()
+| Week08 | 第十九课 | 高级动态规划 |
+|实战题目|标签 |实现
+| [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [数组](https://leetcode-cn.com/tag/array/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [二分查找](https://leetcode-cn.com/tag/binary-search/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | [栈](https://leetcode-cn.com/tag/stack/) [数组](https://leetcode-cn.com/tag/array/) [哈希表](https://leetcode-cn.com/tag/hash-table/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [115. 不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [818. 赛车](https://leetcode-cn.com/problems/race-car/) | [堆](https://leetcode-cn.com/tag/heap/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| Week08 | 第二十课 | 字符串 |
+|基础问题|标签 |实现
+| [709. 转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) | [Go]()
+| [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [数学](https://leetcode-cn.com/tag/math/) [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+|字符串操作问题|标签 |实现
+| [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [双指针](https://leetcode-cn.com/tag/two-pointers/) [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [541. 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+|Anagram异位词问题|标签 |实现
+| [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [排序](https://leetcode-cn.com/tag/sort/) [哈希表](https://leetcode-cn.com/tag/hash-table/) | [Go]()
+| [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) | [Go]()
+|Palindrome 回文串问题|标签 |实现
+| [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [双指针](https://leetcode-cn.com/tag/two-pointers/) [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+|最长子串、子序列|标签 |实现
+| [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+|字符串 + 递归 or DP|标签 |实现
+| [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [贪心算法](https://leetcode-cn.com/tag/greedy/) [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+|Homework|标签 |实现
+| [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/description/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [数学](https://leetcode-cn.com/tag/math/) [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [541. 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) | [Go]()
+| [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [205. 同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) | [哈希表](https://leetcode-cn.com/tag/hash-table/) | [Go]()
+| [680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [字符串](https://leetcode-cn.com/tag/string/) | [Go]()
+| [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [贪心算法](https://leetcode-cn.com/tag/greedy/) [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) [回溯算法](https://leetcode-cn.com/tag/backtracking/) | [Go]()
+| [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
+| [115. 不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/) | [字符串](https://leetcode-cn.com/tag/string/) [动态规划](https://leetcode-cn.com/tag/dynamic-programming/) | [Go]()
