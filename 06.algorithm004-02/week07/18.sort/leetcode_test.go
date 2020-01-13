@@ -58,7 +58,7 @@ func mergeAndCount(arr []int, low, mid, high int, tmp []int) int {
 		k, j = k+1, j+1
 	}
 	// 这时tmp是合并后的有序数组,再拷贝回arr数组
-	copy(arr, tmp)
+	copy(arr[low:high+1], tmp)
 	return cnt // 最后返回cnt即可
 }
 
