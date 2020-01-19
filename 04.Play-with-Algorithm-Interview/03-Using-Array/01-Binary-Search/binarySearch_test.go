@@ -14,6 +14,6 @@ func TestBinarySearch(t *testing.T) {
 	for i := 0; i < n; i++ {
 		assert(i == binarySearch(data, n, i))
 	}
-	fmt.Println("binarySearch test complete.")
+	fmt.Println("binarySearch 7 complete.")
 	fmt.Println("Time cost: ", time.Now().Sub(startTime))
 }

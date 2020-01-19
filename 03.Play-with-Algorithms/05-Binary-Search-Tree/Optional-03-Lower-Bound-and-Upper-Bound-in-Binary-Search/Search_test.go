@@ -30,5 +30,5 @@ func TestSearch(t *testing.T) {
 			panic("线性查找失败!!")
 		}
 	}
-	fmt.Println("test completed.")
+	fmt.Println("7 completed.")
 }

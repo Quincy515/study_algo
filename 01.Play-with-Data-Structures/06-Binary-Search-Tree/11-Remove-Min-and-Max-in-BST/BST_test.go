@@ -12,7 +12,7 @@ func TestBST(t *testing.T) {
 
 	n := 1000
 
-	// test removeMin
+	// 7 removeMin
 	var nums []interface{}
 	rand.Seed(time.Now().UnixNano())
 	for i := 0; i < n; i++ {
@@ -29,9 +29,9 @@ func TestBST(t *testing.T) {
 			panic("Error")
 		}
 	}
-	fmt.Println("removeMin test completed.")
+	fmt.Println("removeMin 7 completed.")
 
-	// test removeMax
+	// 7 removeMax
 	for i := 0; i < n; i++ {
 		bst.Add(rand.Intn(10000))
 	}
@@ -46,5 +46,5 @@ func TestBST(t *testing.T) {
 			panic("Error")
 		}
 	}
-	fmt.Println("removeMax test completed.")
+	fmt.Println("removeMax 7 completed.")
 }

@@ -16,7 +16,7 @@ func TestReadGraph(t *testing.T) {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println("test G1 in Sparse Graph: ")
+	fmt.Println("7 G1 in Sparse Graph: ")
 	g1.Show()
 
 	g2 := NewDenseGraph(13, false)
@@ -24,7 +24,7 @@ func TestReadGraph(t *testing.T) {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println("test G1 in Dense Graph: ")
+	fmt.Println("7 G1 in Dense Graph: ")
 	g2.Show()
 
 	// 使用两种图的存储方式读取testG2.txt文件
@@ -36,7 +36,7 @@ func TestReadGraph(t *testing.T) {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println("test G2 in Sparse Graph: ")
+	fmt.Println("7 G2 in Sparse Graph: ")
 	g3.Show()
 
 	g4 := NewDenseGraph(6, false)
@@ -44,6 +44,6 @@ func TestReadGraph(t *testing.T) {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println("test G2 in Dense Graph: ")
+	fmt.Println("7 G2 in Dense Graph: ")
 	g2.Show()
 }
